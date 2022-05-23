@@ -1,0 +1,54 @@
+body {
+    background-color: #ecf0f1;
+    margin: 0;
+}
+.firstdiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #e74c3c;
+}
+.firstdiv h1{
+    font-size: 3rem;
+    text-shadow: 5px 0 #232931;
+}
+.buttons{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.butn{
+    margin: 0px 20px 0px 20px ;
+    background: #e74c3c;
+    border-radius: 7px;
+	color: #ffff;
+	font-size: 30px;
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px 120px 0px 120px;
+}
+.dice h1{
+    text-shadow: 5px 0 #232931;
+    color: #e74c3c;
+}
+.images{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.diceimage{
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice Game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="firstdiv">
+        <h1>Let's Play</h1>
+    </div>
+    <div class="buttons">
+        <button type="button" id="newgamebutn" class="butn newgamebutn">New Game</button>
+        <button type="button" id="rollbutn" class="butn rollbutn">Roll Dice</button>
+        <button type="button" id="holdbutn" class="butn holdbutn">Hold</button>
+    </div>
+    <div class="container">
+		<div class="dice">
+			<h1 class="player-name" id="name-0">Player 1</h1>
+            <h3 class="player-current">Current Score: <span id="current-0">0</span></h3>
+            <h3 class="player-score">Total Score: <span id="score-0">0</span></h3>
+            <h1 id="winner-0"></h1>
+		</div>
+		<div class="dice">
+			<h1 class="player-name" id="name-1">Player 2</h1>
+            <h3 class="player-current">Current Score: <span id="current-1">0</span></h3>
+            <h3 class="player-score">Total Score: <span id="score-1">0</span></h3>
+            <h1 id="winner-1"></h1>
+		</div>
+        <div class="images">
+            <img src="dice-5.png" alt="Dice" class="diceimage" id="dice1"> 
+        </div>
+	</div>
+
+    <script src="jsscript.js"></script>
+    <script src="confetti.js"></script>
+</body>
+</html>
